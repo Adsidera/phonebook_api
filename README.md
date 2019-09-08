@@ -1,24 +1,13 @@
-# README
+# How to use Phonebook API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Clone the repository,  `bundle install`  and then `rails db:seed`
 
-Things you may want to cover:
+You can tests the various calls from the PhonebookAPI Postman collection https://documenter.getpostman.com/view/338194/SVmpWgnF?version=latest
 
-* Ruby version
+Start the `rails server`
 
-* System dependencies
+Start from the request `POST /authenticate` to receive your token
 
-* Configuration
+In the Authorization tab in Postman, choose `Bearer Token` as authorization method
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Paste your token in the token field and you are ready to go :)
